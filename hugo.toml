@@ -1,9 +1,9 @@
 theme = "hugo-book"
-baseURL = 'https://example.org/'
+baseURL = 'https://enchanting-dieffenbachia-b57d92.netlify.app/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 [build]
-command = "hugo --gc --minify"
+command = "hugo --gc --minify -D"
 publish = "public"
 
 [context.production.environment]
