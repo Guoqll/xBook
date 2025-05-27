@@ -1,5 +1,5 @@
 theme = "hugo-book"
-baseURL = 'https://enchanting-dieffenbachia-b57d92.netlify.app/'
+baseURL = 'https://merry-custard-2156c8.netlify.app/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 [build]
