@@ -2,3 +2,10 @@ theme = "hugo-book"
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+[build]
+command = "hugo --gc --minify"
+publish = "public"
+
+[context.production.environment]
+HUGO_VERSION = "0.147.5"          # 普通版本
+# HUGO_VERSION = "0.147.5_extended" # 扩展版本（如需）
