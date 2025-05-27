@@ -7,5 +7,5 @@ command = "hugo --gc --minify"
 publish = "public"
 
 [context.production.environment]
-HUGO_VERSION = "0.147.5"          # 普通版本
+HUGO_VERSION = "0.147.5_extended"          # 普通版本
 # HUGO_VERSION = "0.147.5_extended" # 扩展版本（如需）
